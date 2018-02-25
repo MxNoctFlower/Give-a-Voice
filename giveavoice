@@ -1,0 +1,68 @@
+<!-Stylesheet for the app->
+body{
+background-color: #777777}
+
+.typeFace{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p,h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.centerObject{
+   display: table;
+   margin: 0 auto
+}
+
+.topCorner{
+   position:absolute;
+   top:0;
+   right:0;
+  }
+
+.whiteTypeFace{
+    color: white;
+}
+
+.pad{
+    padding: 0px;
+}
+
+
+.textSize{
+    font-size: 50px;
+}
+
+#buttonStyle{
+  background-color: #FF4149;
+  border: none;
+  color: white;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'PT Sans Narrow', sans-serif;
+  border-radius: 50px;
+  vertical-align:middle;
+
+}
+
+.centerMiddle{
+appearance: none;
+-moz-appearance: none;
+-webkit-appearance: none;
+left: 30%;
+top: 50%;
+position: absolute;
+}
+
+#buttonStyle:hover{
+    opacity: 1}
